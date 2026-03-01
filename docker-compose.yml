@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - FOODDAWG_DB_URL=sqlite:///./fooddawg.db
+      - FOODDAWG_PO_SOURCE=csv
+      - FOODDAWG_PO_CSV_PATH=/app/sample_data/po_lines.csv
+    volumes:
+      - ./sample_data:/app/sample_data
+      - ./fooddawg.db:/app/fooddawg.db

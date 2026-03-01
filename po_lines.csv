@@ -1,0 +1,5 @@
+po_number,vendor,received_date,sku,description,qty,unit,unit_price
+PO-1001,Acme Foods,2026-02-20,SKU-CHKN,Chicken Breast 40lb,2,case,98.50
+PO-1001,Acme Foods,2026-02-20,SKU-RICE,Rice 50lb,1,bag,34.00
+PO-1002,Fresh Dairy,2026-02-21,SKU-MLK,Whole Milk 1gal,12,each,3.25
+PO-1002,Fresh Dairy,2026-02-21,SKU-CHS,Cheddar Cheese 5lb,3,each,18.90
